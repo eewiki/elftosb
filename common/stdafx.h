@@ -27,7 +27,7 @@
 // For Linux systems only, types.h only defines the signed
 // integer types.  This is not professional code.
 // Update: They are defined in the header files in the more recent version of redhat enterprise gcc.
-#include "/usr/include/sys/types.h"
+#include <sys/types.h>
 #include <stdint.h>
 //typedef unsigned long uint32_t;
 //typedef unsigned short uint16_t;
